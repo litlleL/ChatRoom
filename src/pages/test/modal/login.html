@@ -1,0 +1,23 @@
+<ion-view >
+    <ion-content> 
+        <div class="list">
+            <label class="item  item-input">
+               <span class="input-label">
+                   Name
+               </span>
+               <input type="text" [(ngModel)]="loginData.username">
+            </label>
+            <label class="item  item-input">
+                <span class="input-label">
+                    Password
+                </span>
+                <input type="text" [(ngModel)]="loginData.password">
+            </label>
+            <label class="item">
+                <button class="button button-block button-positive" (click)="loginModal.hide()">Validate</button>
+            </label>
+        </div>
+    </ion-content>
+</ion-view>
+
+    

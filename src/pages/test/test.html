@@ -9,6 +9,7 @@
           <h4>
             Bonjour {{name}}
           </h4>
-          <input [(ngModel)]="name" type="text" placeholder="Saisir nom" #ctrl="ngModel">  
+          <input [(ngModel)]="name" type="text" placeholder="Saisir nom" #ctrl="ngModel"> 
+          <button class="button button-block  button-positive" (click)="loginModal.show()">Connexion</button> 
       </ion-content>
 </ion-content>
